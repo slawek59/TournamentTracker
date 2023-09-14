@@ -36,7 +36,13 @@
             unplayedOnlyCheckBox = new CheckBox();
             matchupListBox = new ListBox();
             teamOneName = new Label();
-            label1 = new Label();
+            teamOneScoreLabel = new Label();
+            teamOneScoreValue = new TextBox();
+            teamTwoScoreValue = new TextBox();
+            teamTwoScoreLabel = new Label();
+            teamTwoName = new Label();
+            versusLabel = new Label();
+            scoreButton = new Button();
             SuspendLayout();
             // 
             // headerLabel
@@ -109,30 +115,102 @@
             teamOneName.AutoSize = true;
             teamOneName.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
             teamOneName.ForeColor = Color.Navy;
-            teamOneName.Location = new Point(568, 230);
+            teamOneName.Location = new Point(568, 190);
             teamOneName.Name = "teamOneName";
             teamOneName.Size = new Size(234, 54);
             teamOneName.TabIndex = 6;
             teamOneName.Text = "<team one>";
             // 
-            // label1
+            // teamOneScoreLabel
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.Navy;
-            label1.Location = new Point(568, 295);
-            label1.Name = "label1";
-            label1.Size = new Size(115, 54);
-            label1.TabIndex = 7;
-            label1.Text = "Score";
+            teamOneScoreLabel.AutoSize = true;
+            teamOneScoreLabel.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            teamOneScoreLabel.ForeColor = Color.Navy;
+            teamOneScoreLabel.Location = new Point(568, 255);
+            teamOneScoreLabel.Name = "teamOneScoreLabel";
+            teamOneScoreLabel.Size = new Size(115, 54);
+            teamOneScoreLabel.TabIndex = 7;
+            teamOneScoreLabel.Text = "Score";
+            // 
+            // teamOneScoreValue
+            // 
+            teamOneScoreValue.BackColor = SystemColors.Menu;
+            teamOneScoreValue.Location = new Point(701, 259);
+            teamOneScoreValue.Name = "teamOneScoreValue";
+            teamOneScoreValue.Size = new Size(150, 50);
+            teamOneScoreValue.TabIndex = 8;
+            // 
+            // teamTwoScoreValue
+            // 
+            teamTwoScoreValue.BackColor = SystemColors.Menu;
+            teamTwoScoreValue.Location = new Point(701, 459);
+            teamTwoScoreValue.Name = "teamTwoScoreValue";
+            teamTwoScoreValue.Size = new Size(150, 50);
+            teamTwoScoreValue.TabIndex = 11;
+            // 
+            // teamTwoScoreLabel
+            // 
+            teamTwoScoreLabel.AutoSize = true;
+            teamTwoScoreLabel.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            teamTwoScoreLabel.ForeColor = Color.Navy;
+            teamTwoScoreLabel.Location = new Point(568, 455);
+            teamTwoScoreLabel.Name = "teamTwoScoreLabel";
+            teamTwoScoreLabel.Size = new Size(115, 54);
+            teamTwoScoreLabel.TabIndex = 10;
+            teamTwoScoreLabel.Text = "Score";
+            // 
+            // teamTwoName
+            // 
+            teamTwoName.AutoSize = true;
+            teamTwoName.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            teamTwoName.ForeColor = Color.Navy;
+            teamTwoName.Location = new Point(568, 390);
+            teamTwoName.Name = "teamTwoName";
+            teamTwoName.Size = new Size(232, 54);
+            teamTwoName.TabIndex = 9;
+            teamTwoName.Text = "<team two>";
+            // 
+            // versusLabel
+            // 
+            versusLabel.AutoSize = true;
+            versusLabel.Font = new Font("Segoe UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            versusLabel.ForeColor = Color.Navy;
+            versusLabel.Location = new Point(641, 336);
+            versusLabel.Name = "versusLabel";
+            versusLabel.Size = new Size(98, 54);
+            versusLabel.TabIndex = 12;
+            versusLabel.Text = "-VS-";
+            // 
+            // scoreButton
+            // 
+            scoreButton.BackColor = SystemColors.ControlLight;
+            scoreButton.FlatAppearance.BorderColor = Color.Silver;
+            scoreButton.FlatAppearance.BorderSize = 5;
+            scoreButton.FlatAppearance.MouseDownBackColor = Color.DarkSalmon;
+            scoreButton.FlatAppearance.MouseOverBackColor = Color.Bisque;
+            scoreButton.FlatStyle = FlatStyle.Flat;
+            scoreButton.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            scoreButton.ForeColor = Color.Navy;
+            scoreButton.Location = new Point(832, 336);
+            scoreButton.Name = "scoreButton";
+            scoreButton.Size = new Size(142, 66);
+            scoreButton.TabIndex = 13;
+            scoreButton.Text = "Score";
+            scoreButton.UseVisualStyleBackColor = false;
             // 
             // TournamentViewerForm
             // 
             AutoScaleDimensions = new SizeF(17F, 45F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(983, 582);
-            Controls.Add(label1);
+            ClientSize = new Size(1160, 605);
+            Controls.Add(scoreButton);
+            Controls.Add(versusLabel);
+            Controls.Add(teamTwoScoreValue);
+            Controls.Add(teamTwoScoreLabel);
+            Controls.Add(teamTwoName);
+            Controls.Add(teamOneScoreValue);
+            Controls.Add(teamOneScoreLabel);
             Controls.Add(teamOneName);
             Controls.Add(matchupListBox);
             Controls.Add(unplayedOnlyCheckBox);
@@ -158,6 +236,12 @@
         private CheckBox unplayedOnlyCheckBox;
         private ListBox matchupListBox;
         private Label teamOneName;
-        private Label label1;
+        private Label teamOneScoreLabel;
+        private TextBox teamOneScoreValue;
+        private TextBox teamTwoScoreValue;
+        private Label teamTwoScoreLabel;
+        private Label teamTwoName;
+        private Label versusLabel;
+        private Button scoreButton;
     }
 }
