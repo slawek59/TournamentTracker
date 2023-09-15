@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class addTeamButton : Form
+    public partial class CreateTeamForm : Form
     {
-        public addTeamButton()
+        public CreateTeamForm()
         {
             InitializeComponent();
-        }
-
-        private void teamOneScoreLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
