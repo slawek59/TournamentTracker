@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class addTeamButton
+    partial class CreateTournamentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addTeamButton));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateTournamentForm));
             headerLabel = new Label();
             tournamentNameValue = new TextBox();
             tournamentNameLabel = new Label();
@@ -37,7 +37,7 @@
             selectTeamDropDown = new ComboBox();
             selectTeamLabel = new Label();
             createNewTeamLink = new LinkLabel();
-            scoreButton = new Button();
+            addTeamButton = new Button();
             createPrizeButton = new Button();
             tournamentPlayersListBox = new ListBox();
             tournamentPlayersLabel = new Label();
@@ -129,22 +129,22 @@
             createNewTeamLink.TabStop = true;
             createNewTeamLink.Text = "create new";
             // 
-            // scoreButton
+            // addTeamButton
             // 
-            scoreButton.BackColor = SystemColors.ControlLight;
-            scoreButton.FlatAppearance.BorderColor = Color.Silver;
-            scoreButton.FlatAppearance.BorderSize = 5;
-            scoreButton.FlatAppearance.MouseDownBackColor = Color.DarkSalmon;
-            scoreButton.FlatAppearance.MouseOverBackColor = Color.Bisque;
-            scoreButton.FlatStyle = FlatStyle.Flat;
-            scoreButton.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            scoreButton.ForeColor = Color.Navy;
-            scoreButton.Location = new Point(124, 442);
-            scoreButton.Name = "scoreButton";
-            scoreButton.Size = new Size(233, 66);
-            scoreButton.TabIndex = 16;
-            scoreButton.Text = "Add Team";
-            scoreButton.UseVisualStyleBackColor = false;
+            addTeamButton.BackColor = SystemColors.ControlLight;
+            addTeamButton.FlatAppearance.BorderColor = Color.Silver;
+            addTeamButton.FlatAppearance.BorderSize = 5;
+            addTeamButton.FlatAppearance.MouseDownBackColor = Color.DarkSalmon;
+            addTeamButton.FlatAppearance.MouseOverBackColor = Color.Bisque;
+            addTeamButton.FlatStyle = FlatStyle.Flat;
+            addTeamButton.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            addTeamButton.ForeColor = Color.Navy;
+            addTeamButton.Location = new Point(124, 442);
+            addTeamButton.Name = "addTeamButton";
+            addTeamButton.Size = new Size(233, 66);
+            addTeamButton.TabIndex = 16;
+            addTeamButton.Text = "Add Team";
+            addTeamButton.UseVisualStyleBackColor = false;
             // 
             // createPrizeButton
             // 
@@ -256,7 +256,7 @@
             createTournamentButton.Text = "Create Tournament";
             createTournamentButton.UseVisualStyleBackColor = false;
             // 
-            // addTeamButton
+            // CreateTournamentForm
             // 
             AutoScaleDimensions = new SizeF(17F, 45F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -270,7 +270,7 @@
             Controls.Add(tournamentPlayersLabel);
             Controls.Add(tournamentPlayersListBox);
             Controls.Add(createPrizeButton);
-            Controls.Add(scoreButton);
+            Controls.Add(addTeamButton);
             Controls.Add(createNewTeamLink);
             Controls.Add(selectTeamDropDown);
             Controls.Add(selectTeamLabel);
@@ -282,7 +282,7 @@
             Font = new Font("Segoe UI Light", 16F, FontStyle.Regular, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5);
-            Name = "addTeamButton";
+            Name = "CreateTournamentForm";
             Text = " ";
             ResumeLayout(false);
             PerformLayout();
@@ -298,7 +298,7 @@
         private ComboBox selectTeamDropDown;
         private Label selectTeamLabel;
         private LinkLabel createNewTeamLink;
-        private Button scoreButton;
+        private Button addTeamButton;
         private Button createPrizeButton;
         private ListBox tournamentPlayersListBox;
         private Label tournamentPlayersLabel;

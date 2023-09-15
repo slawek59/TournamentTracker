@@ -28,10 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "CreateTeamForm";
+            SuspendLayout();
+            // 
+            // CreateTeamForm
+            // 
+            AutoScaleDimensions = new SizeF(17F, 45F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightBlue;
+            ClientSize = new Size(1159, 647);
+            Font = new Font("Segoe UI Light", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.Navy;
+            Margin = new Padding(5, 5, 5, 5);
+            Name = "CreateTeamForm";
+            Text = "Create Team";
+            ResumeLayout(false);
         }
 
         #endregion
