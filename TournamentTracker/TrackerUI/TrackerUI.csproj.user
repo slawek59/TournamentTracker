@@ -10,7 +10,7 @@
     <Compile Update="CreateTournamentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="TournamentDashbordForm.cs">
+    <Compile Update="TournamentDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TournamentViewerForm.cs">
