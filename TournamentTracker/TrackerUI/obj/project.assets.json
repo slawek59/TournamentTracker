@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "TrackerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TrackerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrackerLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TrackerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TrackerLibrary/TrackerLibrary.csproj",
+      "msbuildProject": "../TrackerLibrary/TrackerLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "TrackerLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\wassl\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wassl\\OneDrive\\Pulpit\\SLAWOMIR\\Kodowanie\\tournamentAllFiles\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+              "projectPath": "C:\\Users\\wassl\\OneDrive\\Pulpit\\SLAWOMIR\\Kodowanie\\tournamentAllFiles\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

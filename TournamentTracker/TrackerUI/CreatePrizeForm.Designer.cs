@@ -156,6 +156,7 @@
             createPrizeButton.TabIndex = 27;
             createPrizeButton.Text = "Create Prize";
             createPrizeButton.UseVisualStyleBackColor = false;
+            createPrizeButton.Click += createPrizeButton_Click;
             // 
             // CreatePrizeForm
             // 
@@ -177,7 +178,7 @@
             Font = new Font("Segoe UI Light", 16F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = Color.Navy;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "CreatePrizeForm";
             Text = "Create Prize";
             ResumeLayout(false);
