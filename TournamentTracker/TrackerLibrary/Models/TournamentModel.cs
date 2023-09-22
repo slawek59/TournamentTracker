@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class TournamentModel
     {
@@ -26,12 +26,12 @@ namespace TrackerLibrary
         /// <summary>
         /// Represents prizes as a list of PrizeModels.
         /// </summary>
-        public List<PrizeModel> Prizes { get; set; } = new List<PrizeModel>();  
+        public List<PrizeModel> Prizes { get; set; } = new List<PrizeModel>();
 
         /// <summary>
         /// Represents rounds as a list of lists of MatchupModels.
         /// </summary>
-        public List<List<MatchupModel>> Rounds { get; set; } = new List<List<MatchupModel>>(); 
+        public List<List<MatchupModel>> Rounds { get; set; } = new List<List<MatchupModel>>();
 
     }
 }

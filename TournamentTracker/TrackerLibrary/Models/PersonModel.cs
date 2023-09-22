@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class PersonModel
     {
@@ -12,7 +12,7 @@ namespace TrackerLibrary
         /// Represents persons first name.
         /// </summary>
         public string FirstName { get; set; }
-        
+
         /// <summary>
         /// Represents persons last name.
         /// </summary>
