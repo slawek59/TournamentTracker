@@ -1,0 +1,9 @@
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\bin\Debug\TournamentTracker.exe.config
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\bin\Debug\TournamentTracker.exe
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\bin\Debug\TournamentTracker.pdb
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentUI.csproj.AssemblyReference.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.Properties.Resources.resources
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentUI.csproj.GenerateResource.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentUI.csproj.CoreCompileInputs.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.exe
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.pdb

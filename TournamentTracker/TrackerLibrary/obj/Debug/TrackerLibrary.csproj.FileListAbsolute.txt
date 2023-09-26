@@ -1,0 +1,6 @@
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.dll
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.pdb
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.AssemblyReference.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
