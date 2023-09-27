@@ -4,3 +4,12 @@ C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTrack
 C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
 C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
 C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.dll
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.pdb
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.dll
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.xml
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.AssemblyReference.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
+C:\Users\wassl\OneDrive\Pulpit\SLAWOMIR\TournamentTrackerProject\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
